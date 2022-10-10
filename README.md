@@ -4,6 +4,8 @@
 
 Ticket price calculator is using to calculate movie ticket price based on user's age and opening hours. This app is for testing only and using [Cypress](https://www.cypress.io/) to test.
 
+Files for test cases located in `cypress/e2e`
+
 ## Install dependencies
 
 ---
