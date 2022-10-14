@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính giá vé xem phim</title>
+    <script src="v1_cfg.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <label>Tuổi</label>
+        <input type="number" id="age" data-cy="age" />
+    </div>
+    <div>
+        <label>Giờ xem phim</label>
+        <input type="number" id="hour" data-cy="hour" />
+    </div>
+    <button id="calculate" data-cy="calc-button" onclick="calculatePrice()">Tính</button>
+    <div>
+        Output: <span id="output" data-cy="output"></span>
+    </div>
+</body>
+
+</html>
