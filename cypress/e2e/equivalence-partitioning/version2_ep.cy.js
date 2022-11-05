@@ -1,6 +1,6 @@
 describe("kiem tra phan hoach", () => {
     beforeEach(() => {
-        cy.visit("http://127.0.0.1:8080/web/version2_ep.html");
+        cy.visit("http://127.0.0.1:8080/web/equivalence-partitioning/version2_ep.html");
 
         cy.get('[data-cy="age"]').as("age");
         cy.get('[data-cy="hour"]').as("hour");

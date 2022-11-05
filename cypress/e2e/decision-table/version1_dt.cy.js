@@ -1,6 +1,6 @@
 describe("kiem tra bang quyet dinh", () => {
     beforeEach(() => {
-        cy.visit("http://127.0.0.1:8080/web/version1_dt.html");
+        cy.visit("http://127.0.0.1:8080/web/decision_table/version1_dt.html");
 
         cy.get('[data-cy="age"]').as("age");
         cy.get('[data-cy="hour"]').as("hour");
